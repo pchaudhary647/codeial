@@ -1,0 +1,30 @@
+body {
+  background-color: lightblue; 
+}
+
+
+.update-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form,input {
+margin: 10px;
+padding: 10px;
+}
+.user{
+  display: flex;
+  justify-content: center;
+}
+.pp{
+  border: 0.5px solid black;
+  border-radius: 5%;
+}

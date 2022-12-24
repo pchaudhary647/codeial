@@ -1,0 +1,45 @@
+#post-comments-list {
+    background-color: white;
+    color: black;
+
+}
+
+body{
+    background-color: #2196f3;
+    font-family: sans-serif;
+    
+}
+
+#new-post-form{
+    margin-left:10px ;
+    padding-left: 10px;
+}
+
+h4{
+    margin: auto;
+    font-size: 50px;
+}
+
+strong{
+    text-transform: capitalize;
+}
+
+#post-comments-list{
+    border: 1px solid black;
+    margin-bottom: 60px;
+}
+
+.home-container{
+    display: flex;
+}
+
+#feed-posts{
+    width: 70%;
+    padding: 10px;
+}
+
+#all-users{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid lightblue;
+}
