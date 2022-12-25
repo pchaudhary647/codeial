@@ -8,7 +8,9 @@ const db = require('./config/mongoose');
 const session = require('express-session');
 const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
+const passportJWT=require('./config/passport-jwt-strategy')
 const MongoStore = require('connect-mongo');
+
 
 app.use(express.urlencoded({extended:true}));
 
@@ -61,6 +63,7 @@ app.use(passport.setAuthenticatedUser);
 
 // use express router
 app.use('/', require('./routes'));
+app.use('/api',require('./routes/api'))
 
 app.listen(port, function(err){
     if (err){
